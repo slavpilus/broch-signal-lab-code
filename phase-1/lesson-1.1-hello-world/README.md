@@ -1,7 +1,8 @@
 # Lesson 1.1a — Getting PlatformIO talking to the Discovery kit
 
-Companion code for the Broch Signal post *"Getting PlatformIO talking to the
-Discovery kit"* (Phase 1 · Lesson 1.1a).
+Companion code for **Phase 1 · Lesson 1.1a** of the Broch Signal series.
+
+**→ Read the post: [Getting PlatformIO talking to the Discovery kit](https://www.brochsignal.com/field-notes/platformio-and-the-discovery-kit)**
 
 Raw LoRa, **TX-only**. No LoRaWAN, no receiver. The firmware transmits one
 small packet every 10 seconds and reports it on the serial port — just enough

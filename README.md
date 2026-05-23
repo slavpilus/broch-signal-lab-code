@@ -1,6 +1,8 @@
 # broch-signal-lab-code
 
-Public companion code for the [Broch Signal](https://brochsignal.com) field notes — firmware, gateway configs, data-pipeline bits, Grafana dashboards, and SVG diagrams that accompany each lesson.
+Public companion code for **Broch Signal** — a learning-in-public series on LoRaWAN, Meshtastic, and rural-Scotland LPWAN. Firmware, gateway configs, data-pipeline bits, Grafana dashboards, and SVG diagrams that accompany each lesson.
+
+**→ Read the field notes at [www.brochsignal.com](https://www.brochsignal.com/)**
 
 Every lesson in the LoRaWAN / Meshtastic learning series has a matching **tagged release** of this repo. Posts on the blog link to a specific tag so you can reproduce the work at the exact state I had on the bench when I wrote it.
 
