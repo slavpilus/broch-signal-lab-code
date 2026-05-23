@@ -1,0 +1,29 @@
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Build outputs
+build/
+dist/
+*.bin
+*.elf
+*.hex
+*.map
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets — never commit
+*.secret
+*.local
+secrets/
