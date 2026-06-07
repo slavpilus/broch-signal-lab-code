@@ -27,3 +27,8 @@ venv/
 *.secret
 *.local
 secrets/
+
+# Basic Station gateway API key — never commit
+tc.key
+**/tc.key
+tc.trust

@@ -1,0 +1,16 @@
+[Unit]
+Description=LoRa Basics Station (TTN gateway)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+# Adjust User and the three paths below to match your install.
+User=slav
+WorkingDirectory=/home/slav/ttn-gw
+ExecStart=/home/slav/basicstation/build-corecell-std/bin/station --radio-init=/home/slav/basicstation/reset_gw.sh --home=/home/slav/ttn-gw
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
